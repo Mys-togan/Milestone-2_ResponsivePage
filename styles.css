@@ -1,3 +1,158 @@
 /* Header Style  */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+/* Commonstyles  */
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#F3F1FF;
+    margin-top: 0.1em;
+    margin-right: 0.1em;
+}
+
+/* header ( Nav Bar) styles  */
+.header {
+
+    background-color:#2D25A0;
+    height: 650px  ;
+    width: 1440px; ;
+    padding-top: .01em;
+	padding-right: .01em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+a {
+	text-decoration: none;
+    color: cornsilk;
+}
+
+.main-nav {
+	margin-top: 42px;
+    margin-left: 156px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+  
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+.anchor-button1{
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 30px;
+    display: inline-block;
+    color: white;
+    font-weight: 16;
+    font-size: medium;
+    height: 24px;
+    width: 200 px;
+    margin-left: 400px;
+
+}
+
+.anchor-button2{
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 30px;
+    display: inline-block;
+    color: white;
+    font-weight: 16;
+    font-size: medium;
+    height: 24px;
+    width: 200 px;
+
+}
+.signin {
+
+    color: cornsilk;
+
+}
+
+.button {
+
+    float: right;
+    padding-right: 30px;
+   
+}
+
+.left-head {
+    width: 40%;
+    text-align: left;
+    margin-left: 11%;
+    font-size: 40px;
+    color: cornsilk;
+    position: absolute;
+    font-weight: bold;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.right-head {
+
+   
+    text-align: right;
+    padding-top: 40px;
+    margin-right: 150px;
+}
+
+.right-head img{
+
+    align-self: start;
+    float: right;
+    height: 70%;
+    width: 50%
+    
+}
+
+.right-head img:hover {
+
+    width: 300px;
+}
+
+
+
+.left-head p {
+
+    font-size: 50px;
+    color: cornsilk;
+}
+
+/* Top Section style  */
+
+
+
+
+
+
+/* Middle Section Style  */
+
+
+/* Bottom Section Style  */
+
+
+/* footer Style  */
+
+
+
+/* Responsive Media Queries  */
