@@ -10,17 +10,22 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:#F3F1FF;
+    background-color:white;
     margin-top: 0.1em;
     margin-right: 0.1em;
+    height: auto;
+    width: auto;
 }
+
+
+
 
 /* header ( Nav Bar) styles  */
 .header {
 
     background-color:#2D25A0;
     height: 650px  ;
-    width: 1440px; ;
+    width: auto; ;
     padding-top: .01em;
 	padding-right: .01em;
 }
@@ -138,19 +143,113 @@ a {
     color: cornsilk;
 }
 
-/* Top Section style  */
+
+/* Middle Section Style  - Players Profile */
 
 
 
+.player-container {
+
+    background-color: white;
+    width: auto;
+    padding: 30px 30px;
+    margin-top: 21px;
+    border-radius: 5px
+}
+
+
+.players {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.player {
+
+    background-color: #FFFFFF ;
+    width: 330px;
+    height: 474px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    /* margin-top: 21px; */
+    border-radius: 5px;
+    box-shadow: 0 0px 10px 2px #ddd;
+   
 
 
 
-/* Middle Section Style  */
+}
+.player-info {
+    display: flex;
+    align-items: right;
+    overflow: hidden;
+    
+}
+
+.player-photo img {
+
+    width: 300px ;
+    height: 256px;
+
+}
 
 
 /* Bottom Section Style  */
 
+.space-container {
+    width: auto;
+    height: auto;
+    margin-top: 666px
+    
+    
+}
 
+.bottom-left {
+
+    width: 30%;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 40px;
+    position: absolute;
+    font-weight: bold;
+    float: left;
+    overflow: hidden;
+    
+
+}
+.bottom-left h2{
+
+    font-size: 50px;
+    color: black;
+
+}
+.bottom-left p{
+
+    font-size: 20px;
+    color:#6C6C6C;
+
+}
+
+.bottom-right {
+
+
+    text-align: right;
+    padding-top: 50px;
+    margin-right: 150px;
+}
+
+.bottom-right img{
+
+    align-self: start;
+    float: right;
+    height: 427px;
+    width: 567px;
+    
+}
 /* footer Style  */
 
 
